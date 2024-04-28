@@ -1,0 +1,157 @@
+<!-- basique.html -->
+<script src="../assets/js/basique.js"></script>
+<!-- Modal pour modifier -->
+<div id="modalEdit" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Modifier Fruit</h2>
+        <p>Contenu du formulaire de modification ici...</p>
+        <button>Enregistrer</button>
+    </div>
+</div>
+
+<!-- Modal de confirmation de suppression -->
+<div id="modalDelete" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Supprimer Fruit</h2>
+        <p>Êtes-vous sûr de vouloir supprimer ce fruit ?</p>
+        <button id="btnDelete">Supprimer</button>
+    </div>
+</div>
+
+<!-- Table -->
+<div style="padding-top: 10px;">
+    <h4>Tableau responsive</h4>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Couleur</th>
+                    <th>Prix</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Apple</td>
+                    <td>Red</td>
+                    <td>$1.00</td>
+                    <td>
+                        <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                        <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td>Yellow</td>
+                    <td>$1.00</td>
+                    <td>
+                        <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                        <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Orange</td>
+                    <td>Orange</td>
+                    <td>$1.00</td>
+                    <td>
+                        <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                        <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Card -->
+<div style="padding-top: 10px;">
+    <h4>Card</h4>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Product Name 1</h3>
+                <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ultrices
+                    libero.</p>
+                <button class="btn">En savoir plus</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Product Name 2</h3>
+                <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ultrices
+                    libero.</p>
+                <button class="btn">En savoir plus</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Product Name 3</h3>
+                <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ultrices
+                    libero.</p>
+                <button class="btn">En savoir plus</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Product Name 4</h3>
+                <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ultrices
+                    libero.</p>
+                <button class="btn">En savoir plus</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tabs -->
+<div style="padding-top: 10px;">
+    <h4>Tabs</h4>
+    <div class="tab-container">
+        <button class="tablink" onclick="openTab(event, 'tab1')">Tab 1</button>
+        <button class="tablink" onclick="openTab(event, 'tab2')">Tab 2</button>
+        <button class="tablink" onclick="openTab(event, 'tab3')">Tab 3</button>
+
+        <div id="tab1" class="tabcontent">
+            <h3>Tab 1 Content</h3>
+            <p>This is the content of tab 1.</p>
+        </div>
+
+        <div id="tab2" class="tabcontent">
+            <h3>Tab 2 Content</h3>
+            <p>This is the content of tab 2.</p>
+        </div>
+
+        <div id="tab3" class="tabcontent">
+            <h3>Tab 3 Content</h3>
+            <p>This is the content of tab 3.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Vertical nav -->
+<div style="padding-top: 10px;">
+    <h4>Vertical nav</h4>
+    <div class="flex-container">
+        <div class="vertical-menu" id="verticalMenu">
+            <button onclick="toggleIconsOnly()">
+                <i id="toggleIcon" class="fas fa-chevron-up"></i>
+            </button>
+            <a href="#section1" class="active"><i class="fas fa-home"></i> <span>Nav 1</span></a>
+            <a href="#section2"><i class="fas fa-user"></i> <span>Nav 2</span></a>
+            <a href="#section3"><i class="fas fa-cog"></i> <span>Nav 3</span></a>
+            <a href="#section4"><i class="fas fa-envelope"></i> <span>Nav 4</span></a>
+        </div>
+        
+        <!-- <div class="content">
+            <div id="section1" class="section">
+                <h2>Section 1</h2>
+                <p>Put here your content</p>
+            </div>
+        </div> -->
+    </div>
+</div>

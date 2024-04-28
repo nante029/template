@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href='assets/fontawesome-free-5.15.4-web/css/all.min.css' rel='stylesheet'>
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/basique.css">
+
+    <title>Formation</title>
+</head>
+
+<body id="body-pd">
+    <header class="header" id="header">
+        <div class="header__toggle">
+            <i class='bx bx-menu' id="header-toggle"></i>
+            <!-- <i class='fas fa-bars' id="header-toggle"></i> -->
+        </div>
+    </header>
+
+    <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+            <div>
+                <a href="#" class="nav__link active" data-target="views/dashboard.html">
+                    <i class="fas fa-home nav__icon"></i>
+                    <span class="nav__logo-name">Formation</span>
+                </a>
+
+                <div class="nav__list">
+                    <a href="#" class="nav__link" data-target="views/basique.html">
+                        <i class="fas fa-archive nav__icon"></i>
+                        <span class="nav__name">Basique</span>
+                    </a>
+
+                    <a href="#" class="nav__link" data-target="views/nav.html">
+                        <!-- <i class='bx bx-user nav__icon'></i> -->
+                        <i class="fas fa-list nav__icon"></i>
+                        <span class="nav__name">Formulaire</span>
+                    </a>
+
+                    <a href="#" class="nav__link" data-target="views/btn.html">
+                        <i class="fas fa-square nav__icon"></i>
+                        <span class="nav__name">Boutons</span>
+                    </a>
+
+                    <a href="#" class="nav__link" data-target="views/notification.html">
+                        <i class="fas fa-bell nav__icon"></i>
+                        <span class="nav__name">Notification</span>
+                    </a>
+                </div>
+            </div>
+
+            <a href="#" class="nav__link">
+                <i class='bx bx-log-out nav__icon'></i>
+                <span class="nav__name">Log Out</span>
+            </a>
+        </nav>
+    </div>
+
+    <!-- components -->
+    <div id="main-content"></div>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/basique.js"></script>
+</body>
+
+</html>
